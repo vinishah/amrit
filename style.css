@@ -7,3 +7,17 @@
 .container-fluid{
 	padding: 12px;
 }
+
+#navbar{
+	position: sticky;
+}
+
+.panel-footer{
+	text-align: center;
+	display: block;
+}
+
+.navbar-brand{
+	margin: auto;
+	border-radius: 5px;
+}
