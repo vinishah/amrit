@@ -15,9 +15,15 @@
 .panel-footer{
 	text-align: center;
 	display: block;
+	padding: 15px 5px;
+	margin-top: 20px;
 }
 
 .navbar-brand{
 	margin: auto;
 	border-radius: 5px;
+}
+
+.shakes{
+	height: auto;
 }
