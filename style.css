@@ -1,11 +1,44 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+ 
+#container {
+ width: 600px;
+ margin: 50px auto;
+}
+ 
+/*Text Sections*/
+.section {
+ margin: 50px 0;
+}
+ 
+.section h1 {
+ font: 55px/65px Helvetica, sans-serif;
+}
+ 
+.section p {
+ font: 15px/25px Helvetica, sans-serif;
+}
+
 .logo{
 	height: 56px;
 	margin-top: -20px;
 	width: auto;
+	padding-left: 21px;
 }
 
 .container-fluid{
 	padding: 12px;
+}
+
+.navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar-collapse {
+    text-align: center;
 }
 
 #navbar{
@@ -35,9 +68,18 @@ body {
 
 @media (max-width: 767px) /* @grid-float-breakpoint -1 */
 {
-    .navbar-fixed-top
-    {
-    position: relative;
-    top: auto;
+    .navbar-fixed-top{
+    	position: relative;
+    	top: auto;
+    }
+
+    .logo{
+   		padding-bottom: 5px;
+    	padding-left: 32px;    
+    }
+
+    .products{
+    	padding-top: 56px;
     }
 }
+
