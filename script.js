@@ -1,3 +1,6 @@
-$(document).ready(function() {
-   // $('#nav').localScroll({duration:800});
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
 });
