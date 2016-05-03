@@ -7,6 +7,8 @@
 
 body{
   background-image: url("./assets/background.jpg");
+  position: relative;
+  padding-top: 82px;
 }
  
 #container {
@@ -17,6 +19,7 @@ body{
 /*Text Sections*/
 .section {
  margin: 50px 0;
+ padding: 3px;
 }
  
 .section h1 {
@@ -67,11 +70,6 @@ body{
 	height: auto;
 	margin: 5px;
 }
-
-body { 
-	padding-top: 70px;
-}
-
 
 h1 a{
 	color: 	#808080;
