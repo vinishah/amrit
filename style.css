@@ -4,6 +4,7 @@
  padding: 0;
  font-family: 'Volkhov', serif;
  font-style: bold;
+ box-sizing: border-box;
 }
 
 body{
@@ -89,6 +90,14 @@ body{
 img .floating-box {
     height: auto;
     width: auto;
+}
+
+h1 {
+    margin-top: 20px;
+    padding: 15px 0;
+    border-bottom: 1px solid #666;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 h1 a{
