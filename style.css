@@ -19,7 +19,7 @@ body{
 /*Text Sections*/
 .section {
  margin: 50px 0;
- padding: 3px;
+ padding-top: 20px;
 }
 
 .section, .toTop{
@@ -29,10 +29,18 @@ body{
  
 .section h1 {
  font: 55px/65px Helvetica, sans-serif;
+ padding-top: 84px;
 }
  
 .section p {
  font: 15px/25px Helvetica, sans-serif;
+}
+
+.floating-box {
+    display: inline-block;
+    max-width: 50%;
+    height: 214px;
+    margin: 22px;
 }
 
 .logo{
@@ -71,9 +79,15 @@ body{
 	border-radius: 5px;
 }
 
-.shakes{
+/*.shakes{
 	height: auto;
 	margin: 5px;
+    width: auto;
+}*/
+
+img .floating-box {
+    height: auto;
+    witdh: auto;
 }
 
 h1 a{
@@ -110,5 +124,6 @@ h1 a:hover{
 }
 
 }
+
 
 
